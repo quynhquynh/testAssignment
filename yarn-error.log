@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Dang\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Users\Dang\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Dang\AppData\Local\Microsoft\WindowsApps;C:\Users\Dang\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Dang\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Dang\AppData\Local\Yarn\bin;C:\Users\Dang\AppData\Roaming\npm;C:\Users\Dang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  9.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.18.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1173:14)
+
+npm manifest: 
+  {
+    "name": "nps-orders-api",
+    "version": "1.0.0",
+    "description": "Test assignment",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha --timeout 10000",
+      "dev": "nodemon server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://bevgy@bitbucket.org/bevgy/testassignment.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/bevgy/testassignment#readme",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "chai": "^4.2.0",
+      "chai-http": "^4.2.0",
+      "express": "^4.16.4",
+      "mongodb": "^3.1.9",
+      "mongoose": "^5.3.12"
+    },
+    "devDependencies": {
+      "mocha": "^5.2.0",
+      "nodemon": "^1.18.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
